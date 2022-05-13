@@ -41,7 +41,9 @@ setup(
     tests_require=['tox'],
     cmdclass={'test': Tox},
     python_requires='>=3',
-    install_requires=[],
+    install_requires=[
+        'dill'
+    ],
     classifiers=(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
