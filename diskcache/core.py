@@ -9,7 +9,7 @@ import io
 import json
 import os
 import os.path as op
-import pickle
+import dill as pickle
 import pickletools
 import sqlite3
 import struct

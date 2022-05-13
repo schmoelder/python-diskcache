@@ -1,6 +1,7 @@
 -e .
 blue
 coverage
+dill
 django==3.2.*
 django_redis
 doc8
